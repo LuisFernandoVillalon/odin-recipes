@@ -1,0 +1,59 @@
+.color {
+    font-family: "Georgia", serif;
+    color:gold;
+    background-color:black;
+    font-size: 66px;
+}
+
+.a-button, .caption1 {
+    font-family: "Monaco", monospace;
+    color: orange;
+    background-color: red;
+    font-weight: bold;
+}
+
+.b-button, .caption2 {
+    font-family: "Lucida Handwriting", cursive;
+    color: teal;
+    background-color:lightgreen;
+    font-weight: bold;
+}
+
+.c-button, .caption3 {
+    font-family: "Copperplate", fantasy;
+    color: purple;
+    background-color:burlywood;
+    font-weight: bold;
+}
+
+.a-button, .b-button, .c-button {
+    font-size: 40px;
+}
+
+.caption1, .caption2, .caption3 {
+    font-size: 20px;
+    color: black;
+    font-family: "Helvetica", sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 50%;
+}
+
+p {
+    font-size: 25px;
+    font-family: "Lucida Console", monospace; 
+}
+
+h2 {
+    font-size: 30px;
+}
+
+li {
+    font-size: 23px;
+    font-family: "Courier New", monospace;
+}
