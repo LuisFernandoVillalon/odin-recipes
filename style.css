@@ -1,13 +1,38 @@
+a:link {
+    color: rgb(18, 159, 240);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: rgb(0, 71, 10);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+
 .color {
     font-family: "Georgia", serif;
-    color:gold;
+    color:rgb(3, 114, 179);
     background-color:black;
     font-size: 66px;
 }
 
 .a-button, .caption1 {
     font-family: "Monaco", monospace;
-    color: orange;
+    color: white;
     background-color: red;
     font-weight: bold;
 }
