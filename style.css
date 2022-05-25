@@ -61,6 +61,7 @@ a:active {
     color: black;
     border: 5px solid gold;
     font-family: "Helvetica", sans-serif;
+    display: inline-block;
 }
 
 img {
