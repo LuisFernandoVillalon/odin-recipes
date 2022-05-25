@@ -4,12 +4,6 @@ a:link {
     text-decoration: none;
 }
   
-a:visited {
-    color: rgb(0, 71, 10);
-    background-color: transparent;
-    text-decoration: none;
-}
-  
 a:hover {
     color: purple;
     background-color: transparent;
@@ -28,6 +22,10 @@ a:active {
     color:rgb(3, 114, 179);
     background-color:black;
     font-size: 66px;
+    padding: 20px;
+    border: 20px solid #9b51e0;
+    margin: 10px;
+
 }
 
 .a-button, .caption1 {
@@ -53,11 +51,15 @@ a:active {
 
 .a-button, .b-button, .c-button {
     font-size: 40px;
+    padding: 20px;
+    border: 10px solid #0e049e;
+    margin: 10px;
 }
 
 .caption1, .caption2, .caption3 {
     font-size: 20px;
     color: black;
+    border: 5px solid gold;
     font-family: "Helvetica", sans-serif;
 }
 
@@ -69,13 +71,17 @@ img {
     width: 50%;
 }
 
-p {
+.text {
     font-size: 25px;
     font-family: "Lucida Console", monospace; 
+    border: 5px dotted rgb(0, 225, 255);
+    padding: 10px;
+    
 }
 
 h2 {
     font-size: 30px;
+    margin: 0 0 -0.5rem 0;
 }
 
 li {
